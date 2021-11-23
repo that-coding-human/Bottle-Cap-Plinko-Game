@@ -3,32 +3,32 @@ Project for an arduino based bottle cap Plinko Game with snack dispenser as rewa
 
 Parts:
 - Laser Module: 5V KY-008 650nm Laser Sensor Module  
-  Example Link: https://www.amazon.de/-/en/gp/product/B07VSXW3TG
-- Laser Receiver Module: 5V Laser Recevier Sensor Module Relay Switch
-  Example Link: https://www.amazon.de/-/en/gp/product/B07SGHWF55 
-- Logic Board: Arduino Nano
-- Stepper Motor Driver: DRV8825
-  Link to datasheet:https://www.ti.com/lit/ds/symlink/drv8825.pdf
-  Link to Driver Board example: https://www.pololu.com/product/2133
-- Stepper Motor usongshine 17HS4401S
-  Link to Datasheet : https://www.handsontec.com/dataspecs/17HS4401S.pdf
-- Voltage Supply AC-DC Module: Multi Voltage Switched Mode Power Supply Board PCB Module
-  Requirement: Must be able to perform a AC 230V to DC 9V conversion.
-  Example Link: https://www.amazon.de/gp/product/B002BX1D1Y
-- DC-DC Step Down Module - LM2596S DC-DC down converter 36 V, 24 V, 12 V to 5 V, 2 A, voltage stabiliser with digital voltmeter display
-  Requirement: Must be able to transform DC 9V to DC 5V
-  Example Link: https://www.amazon.de/gp/product/B081N6WWJS
-- Stepper Motor Bracket for Nema 17 Motors - Distance Plate for Mounting the Motor
-  Requirement: For mounting the Motor on the cereal dispenser
-  Example Link: https://www.amazon.de/gp/product/B086M3S1WS
-- Cereal Dispenser
-  Requirement: The dispenser must have a knob to turn in order to dispense the content. A push button will not work well.
-  Example Link: https://www.amazon.de/gp/product/B07ZQ9CSCB/
-- Wall Mounted Bottle Opener 
-  Requirement: Must be mounted to a wall in order to single handedly open a bottle in it, so the bottle cap simply falls down.
-  Example Link: https://www.amazon.de/gp/product/B07D8P3KSF
-- Capacitor of at least 47uF
-- Misc: Wood, Nails, Screws Clear Glass/Plastic, Cables, Soldering
+  Example Link: https://www.amazon.de/-/en/gp/product/B07VSXW3TG  
+- Laser Receiver Module: 5V Laser Recevier Sensor Module Relay Switch  
+  Example Link: https://www.amazon.de/-/en/gp/product/B07SGHWF55   
+- Logic Board: Arduino Nano  
+- Stepper Motor Driver: DRV8825  
+  Link to datasheet:https://www.ti.com/lit/ds/symlink/drv8825.pdf  
+  Link to Driver Board example: https://www.pololu.com/product/2133  
+- Stepper Motor usongshine 17HS4401S  
+  Link to Datasheet : https://www.handsontec.com/dataspecs/17HS4401S.pdf  
+- Voltage Supply AC-DC Module: Multi Voltage Switched Mode Power Supply Board PCB Module  
+  Requirement: Must be able to perform a AC 230V to DC 9V conversion.  
+  Example Link: https://www.amazon.de/gp/product/B002BX1D1Y  
+- DC-DC Step Down Module - LM2596S DC-DC down converter 36 V, 24 V, 12 V to 5 V, 2 A, voltage stabiliser with digital voltmeter display  
+  Requirement: Must be able to transform DC 9V to DC 5V  
+  Example Link: https://www.amazon.de/gp/product/B081N6WWJS  
+- Stepper Motor Bracket for Nema 17 Motors - Distance Plate for Mounting the Motor  
+  Requirement: For mounting the Motor on the cereal dispenser  
+  Example Link: https://www.amazon.de/gp/product/B086M3S1WS  
+- Cereal Dispenser  
+  Requirement: The dispenser must have a knob to turn in order to dispense the content. A push button will not work well.  
+  Example Link: https://www.amazon.de/gp/product/B07ZQ9CSCB/  
+- Wall Mounted Bottle Opener   
+  Requirement: Must be mounted to a wall in order to single handedly open a bottle in it, so the bottle cap simply falls down.  
+  Example Link: https://www.amazon.de/gp/product/B07D8P3KSF  
+- Capacitor of at least 47uF  
+- Misc: Wood, Nails, Screws Clear Glass/Plastic, Cables, Soldering  
 
 
 Important Notes:
