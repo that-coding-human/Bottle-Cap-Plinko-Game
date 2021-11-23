@@ -2,7 +2,7 @@
 Project for an arduino based bottle cap Plinko Game with snack dispenser as reward.
 
 Parts:
-- Laser Module: 5V KY-008 650nm Laser Sensor Module
+- Laser Module: 5V KY-008 650nm Laser Sensor Module  
   Example Link: https://www.amazon.de/-/en/gp/product/B07VSXW3TG
 - Laser Receiver Module: 5V Laser Recevier Sensor Module Relay Switch
   Example Link: https://www.amazon.de/-/en/gp/product/B07SGHWF55 
