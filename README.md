@@ -1,4 +1,7 @@
 # Bottle-Cap-Plinko-Game
+
+!This Readme is still work in progress. It still contains some flaws and is not finished. Use at your own risk.!
+
 Project for an arduino based bottle cap Plinko Game with snack dispenser as reward.
 
 Parts:
@@ -44,3 +47,7 @@ Important Notes:
 - ATTENTION! Do not disconnect the Motor Cable while the Driver is supplied with power. Disconnecting the cable while the driver is still supplied with power can immediately destroy the driver. This is true for nearly all drivers, including the A4988
 - READ THE DATA SHEET OF YOUR DRIVER CAREFULLY! (This is very true in all cases, but here it is extremely important. I cannot stress this enough!) 
 - READ THE DATA SHEET OF YOUR STEPPER MOTOR CAREFULLY!! The 17HS4401S stepper motor has 6 pins, of which 4 are functional. In difference to many other motors the position of the middle pins is switched! This is usually compensated by the cables, shipped together with the motors, which have a crossover of the middle two wires, which makes it compatible to the pin order of most mainboards. If you are building your own board (like we do here), you must be aware of the order of pins of your driver as well as your stepper motor! If you are using different drivers / motors than the ones mentioned here, you need to take this into account and maybe change the pin and cable connections.  
+- Not activating microstepping will make your motor "rattle" on slow speeds. As I wanted a smooth but slow dispensing cycle, I activated microstepping for having a smooth slow run. Keep in mind that microstepping comes to the cost of losing torque, which is mostly ok in this context.
+- Have the plexiglass cover for the board of nails extend a bit (3 cm in my case) above the top line of nails. This prevents the bottle cap from hitting the first nail and bouncing off and out of your board. Even if the cap bounces, it is being directed by the glass cover downward again.
+- I soldered two additional wires to two free digital arduino pins, which do not have a purpose yet. As I mounted my custom mainboard to the board, I wanted to have them soldered in now, in case I want to add additional function (maybe a speaker playing music for the winner, LED lights, etc.) later. 
+- Think, and take care, of strain relief for your cabling leaving your case. This is especially the case for your main power supply and the motor cable. I used cable zip ties (two for the main power cable in a 90 degree angle, and one for the motor cable) in order to fixate it to the wood. This is important! There will be people pulling at these cables accidentally (stumbling, etc.). If you do not have a strain relief (which might be even better than my improvised one), a sudden pull at these cables might cause severe damage to your game electronics or is even a risk for hurting someone (in case a non secured main power supply cable gets ripped off.)
