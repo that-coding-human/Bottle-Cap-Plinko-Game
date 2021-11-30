@@ -13,7 +13,7 @@ Please see the LICENSE file for your rights under this license.
 #define Sleep 8
 
 // We use Microstepping, as it makes the motor run smoother, and we still have enough torque.
-// You can chose to not use Microstepping to have more torque if required. You will
+// You can chose to not use Microstepping to have more torque if required.
 #define MS1 7
 #define MS2 6
 #define MS3 5
